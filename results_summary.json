@@ -1,0 +1,28 @@
+{
+  "run_metadata": {
+    "date": "2026-09-07T13:32:06.044650",
+    "repo": "https://github.com/pierclgr/MPRNet-SR",
+    "paper": "MPRNet: Multi-Path Residual Network for Lightweight Image Super Resolution (Mehri et al., 2020)",
+    "train_images": 200,
+    "test_images": 25,
+    "training_steps": 3000,
+    "batch_size": 16,
+    "scale": 4,
+    "degradation": "bicubic"
+  },
+  "reproduced_results": {
+    "test_psnr_db": 26.7,
+    "test_ssim": 0.7907,
+    "test_samples": 25
+  },
+  "bicubic_baseline": {
+    "test_psnr_db": 26.07,
+    "test_ssim": 0.7659
+  },
+  "paper_reported_reference": {
+    "note": "Paper's Set5 x4 BI-degradation numbers (different test set/scale from this small 25-image DIV2K-validation subset \u2014 not a like-for-like comparison, shown for context only)",
+    "psnr_db": 32.38,
+    "ssim": 0.8969,
+    "params": 538000
+  }
+}
